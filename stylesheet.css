@@ -1308,13 +1308,22 @@ audio {
 }
   
 .btn-primary {
-        border-color: #466baf;
-        padding: 10px;
-        text-transform: uppercase;
-        font-family: 'Signika', sans-serif;
-        font-weight: 700;
-        color: #fff;
-        background-color: #466baf;
+	padding-bottom: 50px;
+	padding: 12px 24px;
+    font-family: 'Signika', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 8px 16px rgba(2, 0, 0, 3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background: linear-gradient(45deg, #321e21, #bc4809); /* Gradient background */
+    color: white;
 }
     .btn-primary:hover,
     .btn-primary:focus,
